@@ -20,7 +20,9 @@ const About_l = () => {
     <div className='right_abt'>
       <div className='right_abt_info'>
         <span data-aos="fade-in" data-aos-delay="200">I am, </span>
-        <span data-aos="fade-in" data-aos-delay="300">dv8, a group of geniuses, developers, designers, artists, creatives and not very good dancers, We are here to bring to life the product you have been imagining. We create simple, direct, beautiful and usable products we all believe in. One thing dv8 really admire is creativity, it is the reason why we are always outside the box and always welcome the creativity of our clients. dv8 works with clients all around the world and  We are based in Ghana, Accra and Koforidua
+        <span data-aos="fade-in" data-aos-delay="300">Ajay, a creative artist, a Web developer and an awesome COD player from Ghana. My expertise lies in web design and development, though i do dabble in mobile and desktop app development, my mobile apps are amazing! make that my expertise too, one thing i really enjoy about this is meeting new client and sharing and exchanging idea about making an amazing product.<br/>
+        i'll will like to work with u, get in touch.
+
         </span>
       </div>
 
