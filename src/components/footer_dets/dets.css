@@ -1,0 +1,22 @@
+.dets{
+    width: 40%;
+    display: flex; 
+    align-items: space-between; 
+    justify-content: space-between;  
+}
+
+
+
+.dets span{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
+
+.dets_title{
+    font-size: 2.5vw;
+    font-weight: 650;
+}
+.dets_title hr{
+border: 1px solid black;
+}

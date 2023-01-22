@@ -1,0 +1,45 @@
+.gal{
+    width: 100%;
+    height: 100vh;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame{
+    width: 30rem;
+    height: 90vh;
+    color: var(--white);
+    background-image: url(../../assets/art/IMG_1.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-position: center;
+    transition: 1s;
+
+    animation: slide 30s ease-in-out /*delay*/ infinite alternate-reverse forwards;
+}
+@keyframes slide{
+    0%{
+        background-image: url(../../assets/art/IMG_2.JPG);
+    }
+    20%{
+        background-image: url(../../assets/art/IMG_3.JPG);
+    }
+    40%{
+        background-image: url(../../assets/art/IMG_4.JPG);
+    }
+    60%{
+        background-image: url(../../assets/art/IMG_5.JPG);
+    }
+    80%{
+        background-image: url(../../assets/art/IMG_2.JPG);
+    }
+    100%{
+        background-image: url(../../assets/art/IMG_1.JPG);
+    }
+}
+

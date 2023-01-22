@@ -1,0 +1,20 @@
+
+.sub_heading{
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub_heading span{
+    text-align: center;
+    font-weight: 150;
+}
+
+.sub_heading span:nth-child(1){
+    font-weight: 400;
+    font-size: 3vw;
+    margin: 1.5vw;
+}

@@ -1,0 +1,38 @@
+.about_l{
+    height: 100vh;
+    width: 100%;
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+}
+
+.right_abt{
+    display: flex;
+    flex: 60%;
+    justify-content: center;
+    width: 50vw;
+}
+
+.right_abt_info{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+}
+.right_abt_info span:nth-child(1){
+    font-size: 5vw;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.right_abt_info span{
+    font-size: 1.7vw;
+    font-weight: 250;
+}
+
+.left_abt{
+    flex: 40%;
+}
+
+.left_abt img{
+    width: 30vw;
+}

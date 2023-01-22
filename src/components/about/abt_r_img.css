@@ -1,0 +1,40 @@
+.about_r{
+    height: 100vh;
+    width: 94%;
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+    position: relative;
+    left: 5vw;
+}
+
+.left_abt{
+    display: flex;
+    flex: 60%;
+    justify-content: center;
+    width: 50vw;
+}
+
+.left_abt_info{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+}
+.left_abt_info span:nth-child(1){
+    font-size: 5vw;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.left_abt_info span{
+    font-size: 1.7vw;
+    font-weight: 250;
+}
+
+.right_abt{
+    flex: 40%;
+}
+
+.right_abt img{
+    width: 30vw;
+}

@@ -1,0 +1,54 @@
+.abt_gal{
+    width: 100%;
+    display: flex;
+    align-items: flex-start; 
+}
+
+.gal_frame{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+.gal_frame img{
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.gal_frame img:nth-child(1){
+    width: 40vw;
+}
+.gal_frame img:nth-child(2){
+    width: 40vw;
+    position: relative;
+    left: 40vw;
+    margin-top: -16.95vw;
+}
+.gal_frame img:nth-child(3){
+    width: 40vw;
+    position: relative;
+    margin-top: -46vw;
+}
+.gal_frame img:nth-child(4){
+    width: 40vw;
+    position: relative;
+    left: 40vw;
+    margin-top: -20vw;
+}
+.gal_frame img:nth-child(5){
+    width: 40vw;
+    position: relative;
+    margin-top: -33vw;
+}
+.gal_frame img:nth-child(6){
+    width: 40vw;
+}
+.gal_frame img:nth-child(7){
+    width: 40vw;
+    position: relative;
+    left: 40vw;
+    margin-top: -50vw;
+}

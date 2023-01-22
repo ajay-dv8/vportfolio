@@ -1,0 +1,102 @@
+.intro{
+    height: 100vh;
+    width: 100%;
+}
+
+.intro_wheel_bg{
+  position: absolute;
+  width: 50rem;
+  min-width: 50vw;
+  right: 0;
+}
+
+.intro_bg {
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.intro_bg h1{
+    font-size: 12vw;
+    position: absolute;
+    font-weight: 1000;
+    opacity: 0.05;
+    animation: trans-bubbly-text 5s ease-in-out infinite;
+}
+
+.left_intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4vw;
+    position: relative;
+    top: 20rem;
+    left: 3rem;
+}
+.left_intro span{
+    position: relative;
+    animation: bubbly-text 5s ease-in-out infinite;
+    color: black;
+    text-shadow: none;
+}
+
+.intro_items{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+
+@keyframes bubbly-text {
+    0% {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translateY(-20px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+  }
+
+  @keyframes trans-bubbly-text {
+    0% {
+      transform: translateY(0);
+      opacity: 0.03;
+    }
+    50% {
+      transform: translateY(-20px);
+      opacity: 0.05;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0.03;
+    }
+  }
+
+
+  .scroll_down{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    background: dimgrey;
+    border-radius: 50%;
+    animation: bounce 5s ease-in-out infinite;
+}
+
+@keyframes bounce{
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-100px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}

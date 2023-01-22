@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dv8</title>
+
+    <style type="text/css">
+      .loader_title{
+        font-size: 2rem;
+        margin: 3rem;
+        font-weight: 400;
+        font-family: system-ui;
+      }
+      #spinner{
+        height: 100vh;
+        width: 100%;
+        background: #BE3455;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: all 0.3s ease;
+      }
+
+      .bar{
+        width: 0.65rem;
+        height: 4.5rem;
+        display: inline-block;
+        transform-origin: bottom center;
+        border-top-left-radius: 1.3rem;
+        border-top-right-radius: 1.3rem;
+
+        animation: loader 1.2s linear infinite;
+      }
+
+      .bar1{
+        animation-delay: 0.1s;
+      }
+      .bar2{
+        animation-delay: 0.2s;
+      }
+      .bar3{
+        animation-delay: 0.3s;
+      }
+      .bar4{
+        animation-delay: 0.4s;
+      }
+      .bar5{
+        animation-delay: 0.5s;
+      }
+      .bar6{
+        animation-delay: 0.6s;
+      }
+      .bar7{
+        animation-delay: 0.7s;
+      }
+      .bar8{
+        animation-delay: 0.8s;
+      }
+
+      @keyframes loader{
+        0%{
+          transform: scaleY(0.1);
+          background: transparent;
+        }
+        50%{
+          transform: scaleY(1);
+          background: yellowgreen;
+        }
+        100%{
+          transform: scaleY(0.1);
+          background: transparent;
+        }
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="spinner">
+    <div class="bars">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+      <span class="loader_title">dv8 is loading ...</span>
+    </div>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

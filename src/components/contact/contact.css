@@ -1,0 +1,95 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: #BE3455;
+    display: grid;
+    place-items: center;
+    padding: 2.5rem;
+}
+
+.contact_bg{
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    box-shadow: 0 0 0 15px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_bg .contact_title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--black);
+    text-shadow: none;
+    position: relative;
+}
+
+.mail{
+    color: var(--black);
+    font-size: 5vw;
+    font-weight: 700;
+    transition: all 0.5s ease-in;
+}
+
+.mail:hover{
+    color: #BE3455;
+}
+
+.phoneNo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    text-shadow: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.phoneNo:hover + #call_btn{
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+#call_btn:not(:hover){
+    visibility: hidden;
+    transition: visibility 3s;
+}
+
+.call{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.call a{
+    font-weight: 500;
+    font-size: 1rem;
+    visibility: hidden;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    transition: all 0.5s ease; 
+    position: absolute;
+}
+
+.con_social{
+    margin-bottom: -25rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+.con_social span{
+    color: var(--black);
+    text-shadow: none;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+.soc_icons img{
+    width: 1.7rem;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+}
+
+.soc_icons img:hover{
+    transform: scale(1.1);
+}

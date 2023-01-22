@@ -1,0 +1,35 @@
+.workSlide_container{
+    max-height: 34rem;
+    width: 100%;
+    min-width: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 3.5rem;
+}
+
+
+.img_container img{
+    overflow: hidden;
+    -webkit-filter: grayscale(100%) brightness(1);
+    filter: grayscale(100%) brightness(1);
+    width: 100%;
+}
+
+.img_container img:hover{
+    -webkit-filter: grayscale(0) brightness(1);
+    filter: grayscale(0) brightness(1);
+}
+
+.workText_container{
+    width: 100%;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.workText_container h2{
+    font-weight: 450;
+    font-size: 2.5rem;
+    text-shadow: none;
+} 

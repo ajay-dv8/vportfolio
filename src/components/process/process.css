@@ -1,0 +1,26 @@
+.process{
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+/*
+.process_child{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+*/
+.process .process_child{
+    /*min-width: 100%;*/
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
