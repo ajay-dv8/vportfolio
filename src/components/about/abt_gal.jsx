@@ -10,6 +10,7 @@ import IMG_4 from '../../assets/art/IMG_4.jpg'
 import IMG_5 from '../../assets/art/IMG_5.jpg'
 import IMG_6 from '../../assets/art/IMG_6.jpg'
 import IMG_7 from '../../assets/art/IMG_7.jpg'
+import insp_text from '../../assets/media/insp_text.png'
 
 const Abt_gal = () => {
 
@@ -27,6 +28,7 @@ const Abt_gal = () => {
           <img src={IMG_6} />
           <img src={IMG_5} />
           <img src={IMG_7} />
+          <img src={insp_text} />
         </div>
     </div>
   )

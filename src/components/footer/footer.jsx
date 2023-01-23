@@ -41,7 +41,7 @@ const Footer = () => {
                 <Link to='/'>
                 <a data-aos="fade-in" data-aos-delay='100'>Home</a>
                 </Link>
-                <Link to='/work'>
+                <Link to='/puc'>
                 <a data-aos="fade-in" data-aos-delay='150'>Work</a>
                 </Link>
                 <Link to='/about'>

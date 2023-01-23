@@ -2,6 +2,10 @@ span{
     color: aliceblue;
 }
 
+.brands{
+    width: 100%;
+}
+
 .brand_title{
     display: flex;
     flex-direction: column;
@@ -10,11 +14,11 @@ span{
 }
 
 .brand_title span:nth-child(1){
-    font-size: 1.3vw;
+    font-size: 1rem;
     margin: 3rem;
 }
 .brand_title span:nth-child(2){
-    font-size: 3vw;
+    font-size: 2rem;
     font-weight: 500;
     margin: 3rem;
 }

@@ -18,6 +18,12 @@
     flex-direction: column;
 }
 
+.close_comp{
+    position: absolute;
+    right: 0;
+    top: 1.6rem;
+}
+
 .contact_bg .contact_title{
     font-size: 1.5rem;
     font-weight: 500;
@@ -57,21 +63,23 @@
 .call{
     margin: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .call a{
     font-weight: 500;
     font-size: 1rem;
     visibility: hidden;
-    margin-left: 4vw;
-    margin-top: 2vw;
     transition: all 0.5s ease; 
     position: absolute;
+    margin-top: 3rem;
+    color: #BE3455;
 }
 
 .con_social{
-    margin-bottom: -25rem;
-    position: absolute;
+    bottom: -5rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;

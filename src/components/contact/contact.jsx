@@ -10,7 +10,9 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact_bg'>
-      <Close_btn />
+        <div className='close_comp'>
+          <Close_btn />
+        </div>
         <span className='contact_title'>Contact Us</span>
         <a href='mailto:ajaydives3@gmail.com' className='mail'>ajaydives3@gmail.com</a>
         <div className='call'>
@@ -21,7 +23,7 @@ const Contact = () => {
         <div className='con_social'>
           <span>SOCIAL</span>
           <div className='soc_icons'>
-          <img src={blinkedin}/>
+            <img src={blinkedin}/>
             <img src={bfb}/>
             <img src={bgit}/>
           </div>

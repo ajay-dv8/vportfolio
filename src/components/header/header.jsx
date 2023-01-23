@@ -45,18 +45,22 @@ const Header = () => {
                 <li href='noNav' data-aos="fade-in" data-aos-delay='200'>
                   <a data-text='HOME' onClick={toggleNav}>HOME</a>
                 </li>
-              </Link>  
+              </Link> 
+              <Link to='/puc'>
                 <li>
                   <a data-text='FEATURED'>FEATURED</a>
                 </li>
+                </Link> 
                 <Link to='/contact'>
                 <li>
                   <a data-text='CONTACT'>CONTACT</a>
                 </li >
                 </Link>
+                <Link to='/puc'>
                 <li>
                   <a data-text='WORK'>WORK</a>
                 </li>
+                </Link>
                 <Link to='/about'>
                 <li>
                   <a data-text='ABOUT' onClick={toggleNav}>ABOUT</a>

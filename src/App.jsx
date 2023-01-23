@@ -11,6 +11,7 @@ import Introduce from './components/introduction/introduce'
 import Process from './components/process/process'
 import Service from './components/services/service'
 import About from './components/about/about'
+import Puc from './components/PUC/puc'
 
 
 function App() {
@@ -54,6 +55,12 @@ function App() {
           <Route path='/contact' element={(
             <>
               <Contact />
+            </>
+          )}/>
+
+          <Route path='/puc' element={(
+            <>
+              <Puc />
             </>
           )}/>
 
