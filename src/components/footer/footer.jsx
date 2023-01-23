@@ -66,7 +66,7 @@ const Footer = () => {
                 <div className='social_media_link' data-aos="fade-in" data-aos-delay='100'>
                 <Social_link 
                     socialMedia="Github"
-                    link=""
+                    link="https://github.com/ajay-dv8"
                     image={git}
                 />
                 </div>

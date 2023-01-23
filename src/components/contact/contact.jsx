@@ -41,7 +41,7 @@ const Contact = () => {
             <div className='contact_social_icon'>
               <Social_link 
                 socialMedia='Github'
-                link=''
+                link='https://github.com/ajay-dv8'
                 image={bgit}
               />
             </div>
