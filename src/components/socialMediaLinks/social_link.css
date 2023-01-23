@@ -1,0 +1,15 @@
+.social_icons{
+    width: 1.7rem;
+    aspect-ratio: 1/1;
+    margin: 0.5rem;
+}
+
+.social_icons img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.social_icons img:hover{
+    transform: scale(1.1);
+}

@@ -42,15 +42,10 @@ const Header = () => {
         <nav className={`navbar ${isOpen ? 'navbar-open' : 'navbar-closed'}`}>
             <ul className='menu_items'>
               <Link to='/'>
-                <li href='noNav' data-aos="fade-in" data-aos-delay='200'>
+                <li href='noNav' >
                   <a data-text='HOME' onClick={toggleNav}>HOME</a>
                 </li>
               </Link> 
-              <Link to='/puc'>
-                <li>
-                  <a data-text='FEATURED'>FEATURED</a>
-                </li>
-                </Link> 
                 <Link to='/contact'>
                 <li>
                   <a data-text='CONTACT'>CONTACT</a>

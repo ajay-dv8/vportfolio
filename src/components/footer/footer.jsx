@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import fb from '../../assets/media/fb.png'
 import git from '../../assets/media/git.png'
 import linkedin from '../../assets/media/linkedin.png'
+import Social_link from '../socialMediaLinks/social_link';
 
 const Footer = () => {
 
@@ -18,6 +19,7 @@ const Footer = () => {
         
         btn.addEventListener('click', () => {
            btn.classList.add ('btn_click_animate');
+
          });
   
          btn.addEventListener('mouseout', () => {
@@ -32,9 +34,10 @@ const Footer = () => {
             <div className='footer_contact'>
                 <span data-aos="fade-in" data-aos-delay='200'>dv8</span>
                 <span data-aos="zoom-in" data-aos-delay='100'>Ajay Dives</span>
-                <Link to='/contact'></Link>
+                <Link to='/contact'>
                 <button className='contactUs_btn'>Contact Us</button>
                 <div className='btn_offset'></div> 
+                </Link>
             </div>
 
             <div className='footer_links'>
@@ -53,15 +56,27 @@ const Footer = () => {
             </div>
 
             <div className='footer_social'>
-                <Link to='/'>
-                <img data-aos="fade-in" data-aos-delay='100' src={fb} />
-                </Link>
-                <Link to='/'>
-                <img data-aos="fade-in" data-aos-delay='150' src={git} />
-                </Link>
-                <Link to='/'>
-                <img data-aos="fade-in" data-aos-delay='200' src={linkedin} />
-                </Link>
+                <div className='social_media_link' data-aos="fade-in" data-aos-delay='100'>
+                <Social_link 
+                    socialMedia="Facebook"
+                    link=""
+                    image={fb}
+                />
+                </div>
+                <div className='social_media_link' data-aos="fade-in" data-aos-delay='100'>
+                <Social_link 
+                    socialMedia="Github"
+                    link=""
+                    image={git}
+                />
+                </div>
+                <div className='social_media_link' data-aos="fade-in" data-aos-delay='100'>
+                <Social_link 
+                    socialMedia="Linkedin"
+                    link=""
+                    image={linkedin}
+                />
+                </div>
             </div>
         </div>
         <div className='footer_bottom'>

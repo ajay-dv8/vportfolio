@@ -92,12 +92,7 @@
     margin: 1rem;
 }
 
-.soc_icons img{
-    width: 1.7rem;
-    margin: 0.5rem;
-    transition: all 0.5s ease;
-}
-
-.soc_icons img:hover{
-    transform: scale(1.1);
+.soc_icons {
+    display: flex;
+    flex-direction: row;
 }
