@@ -4,6 +4,7 @@ import bfb from '../../assets/media/bfb.png'
 import bgit from '../../assets/media/bgit.png'
 import blinkedin from '../../assets/media/blinkedin.png'
 import Close_btn from './close_btn'
+import Social_link from '../socialMediaLinks/social_link'
 
 const Contact = () => {
 
@@ -23,9 +24,28 @@ const Contact = () => {
         <div className='con_social'>
           <span>SOCIAL</span>
           <div className='soc_icons'>
-            <img src={blinkedin}/>
-            <img src={bfb}/>
-            <img src={bgit}/>
+            <div className='contact_social_icon'>
+              <Social_link 
+                socialMedia='Linked in'
+                link=''
+                image={blinkedin}
+              />
+            </div>
+            <div className='contact_social_icon'>
+              <Social_link 
+                socialMedia='Facebook'
+                link=''
+                image={bfb}
+              />
+            </div>
+            <div className='contact_social_icon'>
+              <Social_link 
+                socialMedia='Github'
+                link='https://github.com/ajay-dv8'
+                image={bgit}
+              />
+            </div>
+
           </div>
         </div>
         
