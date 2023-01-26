@@ -10,6 +10,18 @@ import logo from '../../assets/media/logo.png'
 import twitter from '../../assets/media/twitter.png'
 import apple from '../../assets/media/apple.png'
 
+import styled from 'styled-components';
+
+const Container = styled.div`
+  & .brands{
+        margin-top: -10em; 
+  } @media (width <= 700px){
+    & .brands{
+        margin-top: -25em;
+    }
+  
+`;
+
 const Service_brands = () => {
 
     useEffect(() => {
@@ -17,10 +29,11 @@ const Service_brands = () => {
       },[]);
     
   return (
+    <Container>
     <div className='brands'>
         <div className='brand_title'>
-            <span data-aos="zoom-in" data-aos-delay="200">Our experience</span>
-            <span data-aos="fade-in" data-aos-delay="150">Brands we've worked with</span>
+            <span data-aos="zoom-in" data-aos-delay="50">Our experience</span>
+            <span className='m_title' data-aos="fade-in">Brands we've worked with</span>
         </div>
 
 
@@ -38,6 +51,7 @@ const Service_brands = () => {
         </div>
 
     </div>
+    </Container>
   )
 }
 

@@ -10,7 +10,7 @@
     display: flex;
     flex: 60%;
     justify-content: center;
-    width: 50vw;
+  
 }
 
 .right_abt_info{
@@ -25,14 +25,16 @@
 }
 
 .right_abt_info span{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 250;
 }
 
 .left_abt{
     flex: 40%;
+    margin-left: 10vw;
+    margin-right: 5vw;
 }
 
 .left_abt img{
-    width: 30vw;
+    width: 25rem;
 }

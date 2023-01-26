@@ -1,4 +1,5 @@
 import './App.css'
+import ScrollUp from './scrollToTop'
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Gal from './components/artGal/gal'
@@ -23,12 +24,13 @@ function App() {
     setTimeout(() => {
       spinner.style.display="none";
       setLoading(false);
-    }, 4000);
+    }, 3000);
   }
 
   return (
     !loading && (
     <Router>
+      <ScrollUp>
       <div className="App">
       
         <Routes>
@@ -74,6 +76,7 @@ function App() {
 
         </Routes>  
       </div>
+      </ScrollUp>
     </Router>
     )
   )

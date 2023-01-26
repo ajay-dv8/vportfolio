@@ -17,7 +17,6 @@
     z-index: 99;
     position: relative;
     display: flex;
-    backdrop-filter: grayscale(100%);
     overflow: hidden;
 }
 
@@ -26,8 +25,6 @@
     transform: scale(1.65);
     object-fit: contain;
     z-index: 99;
-    -webkit-filter: grayscale(100%) brightness(1);
-    filter: grayscale(100%) brightness(1);
 }
 .logo_video:hover{
     filter: none;
@@ -43,18 +40,22 @@
     padding-left: 1rem;
     padding-right: 1rem;
     transition: all 0.5s ease;
+    border: 2px solid #BE3455;
 }
   
-.contact_page_btn span:hover {
-    transform: scale(1.1);
+.contact_page_btn:hover {
+    background: #BE3455;
+}.contact_page_btn:hover .contact_main_btn{
+    color: aliceblue;
 }
 
 .contact_page_btn span{
     color: #BE3455;
     text-shadow: none;
     position: relative;
-    font-size: 1.5rem;
-    text-shadow: none;    
+    font-size: 1.3rem;
+    text-shadow: none;  
+    transition: all 0.5s ease;  
 }
 
 
@@ -68,12 +69,11 @@ label{
     width: 50vw;
     max-width: 5rem;
     max-height: 5rem;
-
     margin-right: 2rem;
 }
 path{
     fill: none;
-    stroke: black;
+    stroke: #BE3455;
     mix-blend-mode: difference !important;
     stroke-width: 4;
     stroke-linecap: round;
@@ -86,7 +86,7 @@ path{
 }
 circle{
     fill: var(--lightgray);
-    opacity: 0.4;
+    opacity: 0.2;
     mix-blend-mode: difference!important;
 }
 label:hover circle{

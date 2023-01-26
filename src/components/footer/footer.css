@@ -7,10 +7,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .footer_con{
     display: flex;
+    margin-top: 3vw;
     justify-content: space-around;
     align-items: center;
     width: 95%;
@@ -24,21 +26,21 @@
 }
 
 .footer_contact span:nth-child(1){
-    font-size: 7vw;
+    font-size: 5rem;
     font-weight: 750;
 }
 
 .footer_contact span:nth-child(2){
-    font-size: 1.3vw;
+    font-size: 1rem;
     font-weight: 300;
-    margin: -1.5vw 0 0 6vw;
+    margin: -1.5vw -10rem 0 4rem;
 }
 
 .footer_contact button{
-    height: 3.5vw;
-    width: 9.5vw;
+    height: 2rem;
+    width: 7rem;
     background: var(--white);
-    font-size: 1.3vw;
+    font-size: 1rem;
     font-weight: 520;
     color: var(--black);
     z-index: 1;
@@ -46,17 +48,16 @@
     transition: all 0.5s ease;
 }
 .footer_contact button:hover{
-    border: 2px solid white;
     color: white;
     background: gray;
 }
 .footer_con .btn_offset{
     z-index: 0;
-    height: 3.5vw;
-    width: 9.5vw;
+    height: 2rem;
+    width: 7rem;
     background: transparent;
     border: 2px solid white;
-    transform: translate(1vw, -2.5vw);  
+    transform: translate(0.2rem, -1.8rem);  
 }
 
 .footer_links{

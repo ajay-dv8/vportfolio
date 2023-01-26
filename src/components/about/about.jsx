@@ -8,6 +8,17 @@ import About_r from './abt_r_img';
 import About_l from './abt_l_img';
 import Abt_gal from './abt_gal';
 
+import styled from 'styled-components'
+
+const Container = styled.div`
+& .down_btn{
+  display: block;
+}@media (width <= 480px){
+  & .down_btn{
+    display: none;
+  }
+}
+`;
 
 const About = () => {
 
@@ -26,7 +37,7 @@ const About = () => {
   },[]);
 
   return(
-    <>
+    <Container>
     <div className='about'>
         <div className='bg_container'>
           <a href='#abth'>
@@ -80,7 +91,7 @@ const About = () => {
         </div>
     </div>
     
-    </>
+    </Container>
   )
 }
 

@@ -8,6 +8,30 @@ import folio from '../../assets/media/folio.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
+import styled from 'styled-components'
+
+  const Container = styled.div`
+  & .left_feature, & .right_feature, & .msTitle{
+      display: flex;
+  }@media (width <= 450px){
+   & .left_feature{
+      display: none;
+   }
+   & .right_feature{
+      width: 80%;
+   }
+  }
+
+  & .msTitle{
+   display: none;
+}@media (width <= 450px){
+   & .msTitle{
+      display: block;
+   }
+}
+  
+  `;
+
 const Feature = () => {
 
    useEffect(() => {
@@ -29,6 +53,20 @@ const Feature = () => {
    },[]);
 
   return (
+   <Container>
+      <span className='msTitle'
+         data-aos='zoom-in'
+         style={{
+            color: 'black',
+            textShadow: 'none',
+            fontSize: '1.2rem',
+            fontWeight: '500',
+            margin: '1rem',
+            position: 'relative',
+            top: '-2rem',
+            
+         }}>WORK</span>
+
     <div className='feature'>
         <div className='left_feature' data-aos="fade-up-left">
             <div className='feature_title'>
@@ -60,8 +98,10 @@ const Feature = () => {
                 image={folio}
                 title="Portfolio website"
              />
+             
         </div>
     </div>
+    </Container>
   )
 }
 

@@ -59,8 +59,7 @@
 }
 
 .about_r{
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 
 .about_l{

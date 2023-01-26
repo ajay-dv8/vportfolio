@@ -11,7 +11,7 @@
     width: 30rem;
     height: 90vh;
     color: var(--white);
-    background-image: url(../../assets/art/IMG_1.JPG);
+    background-image: url(../../assets/art/IMG_1.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -24,22 +24,22 @@
 }
 @keyframes slide{
     0%{
-        background-image: url(../../assets/art/IMG_2.JPG);
+        background-image: url(../../assets/art/IMG_2.jpeg);
     }
     20%{
-        background-image: url(../../assets/art/IMG_3.JPG);
+        background-image: url(../../assets/art/IMG_3.jpeg);
     }
     40%{
-        background-image: url(../../assets/art/IMG_4.JPG);
+        background-image: url(../../assets/art/IMG_4.jpeg);
     }
     60%{
-        background-image: url(../../assets/art/IMG_5.JPG);
+        background-image: url(../../assets/art/IMG_5.jpeg);
     }
     80%{
-        background-image: url(../../assets/art/IMG_2.JPG);
+        background-image: url(../../assets/art/IMG_2.jpeg);
     }
     100%{
-        background-image: url(../../assets/art/IMG_1.JPG);
+        background-image: url(../../assets/art/IMG_1.jpeg);
     }
 }
 

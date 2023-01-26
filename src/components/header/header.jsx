@@ -3,6 +3,18 @@ import './header.css'
 import bg from '../../assets/media/bg.webm'
 import { Link } from 'react-router-dom'
 
+import styled from 'styled-components'
+
+  const Container = styled.div`
+    & .contact_page_btn{
+      display: block;
+    }@media (width <=480px){
+      & .contact_page_btn{
+        display: none;
+      }
+    }
+  `
+
 const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +23,7 @@ const Header = () => {
   }
 
   return (
-    <>
+    <Container>
     <div className='header'>
       <Link to='/'>
         <div className='header-logo'>
@@ -71,7 +83,7 @@ const Header = () => {
           </nav>
 
     </div>    
-    </>
+    </Container>
   )
 }
 

@@ -5,15 +5,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
-=======
-    "clean": "rimraf dist",
+    "clean": "rimraf build",
     "serve": "serve dist",
->>>>>>> master
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rimraf build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -21,7 +17,8 @@
     "jquery": "^3.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.6.1"
+    "react-router-dom": "^6.6.1",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
