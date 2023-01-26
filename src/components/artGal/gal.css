@@ -11,7 +11,7 @@
     width: 30rem;
     height: 90vh;
     color: var(--white);
-    background-image: url(../../assets/art/IMG_1.JPG);
+    background-image: url(../../assets/art/IMG_1.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
