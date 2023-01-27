@@ -8,7 +8,7 @@ import styled from 'styled-components'
   const Container = styled.div`
     & .contact_page_btn{
       display: block;
-    }@media (width <=480px){
+    }@media (width <= 700px){
       & .contact_page_btn{
         display: none;
       }
@@ -34,7 +34,7 @@ const Header = () => {
     <div className='right_header_items'>
       <Link to='/contact'>
       <div className='contact_page_btn'>
-      <span className='contact_main_btn'>contact</span>
+        <span className='contact_main_btn'>contact</span>
       </div>
       </Link>
 
