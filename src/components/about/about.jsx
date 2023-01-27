@@ -13,7 +13,8 @@ import styled from 'styled-components'
 const Container = styled.div`
 & .down_btn{
   display: block;
-}@media (width <= 480px){
+}@media only screen and (max-width : 767px),
+ @media only screen and (width <= 480px){
   & .down_btn{
     display: none;
   }

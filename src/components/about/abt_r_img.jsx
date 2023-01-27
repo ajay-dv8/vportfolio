@@ -10,7 +10,8 @@ const Container = styled.div`
 
    & .left_abt_info, & .right_abt, & .rTxt, & .left_about {
     display: flex;
-  }@media (width <= 480px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
     & .left_abt_info{
       width: 80%;  
       margin-left: 0;

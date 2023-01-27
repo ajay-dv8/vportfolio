@@ -14,7 +14,8 @@ const Container = styled.div`
   & .h2{
     margin: 2rem;
   }
-  @media (width <= 480px) {
+  @media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px) {
     & .h2{
       margin: 1rem;
     }

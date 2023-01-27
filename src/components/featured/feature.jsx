@@ -13,7 +13,8 @@ import styled from 'styled-components'
   const Container = styled.div`
   & .left_feature, & .right_feature, & .msTitle{
       display: flex;
-  }@media (width <= 450px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
    & .left_feature{
       display: none;
    }
@@ -24,7 +25,8 @@ import styled from 'styled-components'
 
   & .msTitle{
    display: none;
-}@media (width <= 450px){
+} @media only screen and (max-width : 767px),
+  @media only screen and (width <= 480px){
    & .msTitle{
       display: block;
    }

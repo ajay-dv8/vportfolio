@@ -19,7 +19,8 @@ const Container = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    @media (width <= 480px) {
+    @media only screen and (max-width : 767px),
+    @media only screen and (width <= 480px) {
         height: 15rem;
     }
                

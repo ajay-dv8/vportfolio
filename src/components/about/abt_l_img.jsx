@@ -9,7 +9,8 @@ import styled from 'styled-components'
   const Container = styled.div`
   & .left_abt, & .right_abt_info, & .r_txt, & .about_l{
     display: flex;
-  }@media (width <= 480px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
     & .left_abt{
       display: none;
     }

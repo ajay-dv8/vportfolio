@@ -12,7 +12,8 @@ import Service_items from './service_items';
   & .s_header { 
     font-size: 3em;
     font-weight: 500;
-  }@media (width <= 480px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
     & .s_header{
       font-size: 1.3rem;
       width: 90%;
@@ -22,7 +23,8 @@ import Service_items from './service_items';
   & .ss_header{
     font-size: 2.7em;
     font-weight: 500;
-  }@media (width <= 480px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
     & .ss_header{
     font-size: 1.1rem;
     width: 90%;
@@ -32,7 +34,8 @@ import Service_items from './service_items';
   & .what{
     text-align: center;
     font-size: 15em;
-  }@media (width <= 710px){
+  }@media only screen and (max-width : 767px),
+   @media only screen and (width <= 480px){
     & .what{
       font-size: 5em;
       top: 10vh;
