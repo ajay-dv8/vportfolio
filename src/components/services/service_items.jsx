@@ -48,7 +48,7 @@ const Service_items = () => {
             <h2 className='h2' data-aos='fade-in'data-aos-delay='100'>Design</h2>
             <span className='h2_items' data-aos='fade-in'data-aos-delay='150'>Web design</span>
             <span className='h2_items' data-aos='fade-in'data-aos-delay='200'>UI/UX</span>
-            <span className='h2_items' data-aos='fade-in'data-aos-delay='250'>Visual design</span>
+            <span className='h2_items' data-aos='fade-in'data-aos-delay='250'>Vis. design</span>
             <span className='h2_items' data-aos='fade-in'data-aos-delay='100'>Visual arts</span>
           </div>
           <div className='develop'>

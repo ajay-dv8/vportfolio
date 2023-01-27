@@ -69,7 +69,7 @@ const Footer = () => {
                 <a data-aos="fade-in" data-aos-delay='100'>About</a>
                 </Link>
                 <Link to='/services'>
-                <a data-aos="fade-in" data-aos-delay='80'>Service</a>
+                <a>Service</a>
                 </Link>
             </div>
 
@@ -88,7 +88,7 @@ const Footer = () => {
                     image={git}
                 />
                 </div>
-                <div className='social_media_link' data-aos="fade-in" data-aos-delay='100'>
+                <div className='social_media_link'>
                 <Social_link 
                     socialMedia="Linkedin"
                     link=""

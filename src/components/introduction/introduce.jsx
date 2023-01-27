@@ -14,8 +14,8 @@ const Introduce = () => {
         <div className='i_intro'>
             <span data-aos="fade-in" data-aos-delay='100'>Ajay is a creative,</span>
             <span data-aos="fade-in" data-aos-delay='100'>Dedicated to designing &</span>
-            <span data-aos="fade-in" data-aos-delay='100'>developing mobile & web apps</span>
-            <span data-aos="zoom-in" data-aos-delay='100'>LET'S MAKE U STAND OUT</span>
+            <span data-aos="fade-in" data-aos-delay='100'>developing mobile & web apps.</span>
+            <span data-aos="zoom-in" data-aos-delay='100'>LET'S MAKE U STAND OUT !</span>
         </div> 
     </div>
   )
