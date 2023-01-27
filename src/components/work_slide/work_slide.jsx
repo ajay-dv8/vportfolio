@@ -7,8 +7,10 @@ import styled from 'styled-components'
   const Container = styled.div`
     & .wTxt{
       font-size: 2.5rem;
-    }@media only screen and (max-width : 767px),
-     @media only screen and (width <= 480px){
+    }
+     @media only screen and (max-width : 767px),
+     @media only screen and (width <= 480px)
+     {
       & .wText{
       font-size: 1rem;
       font-weight: 300;

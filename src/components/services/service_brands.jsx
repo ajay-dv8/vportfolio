@@ -15,7 +15,8 @@ import styled from 'styled-components';
 const Container = styled.div`
   & .brands{
         margin-top: -10em; 
-  } @media only screen and (max-width : 767px),
+  } 
+    @media only screen and (max-width : 767px),
     @media only screen and (width <= 480px){
     & .brands{
         margin-top: -25em;

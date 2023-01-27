@@ -25,7 +25,8 @@ import styled from 'styled-components'
 
   & .msTitle{
    display: none;
-} @media only screen and (max-width : 767px),
+}
+  @media only screen and (max-width : 767px),
   @media only screen and (width <= 480px){
    & .msTitle{
       display: block;

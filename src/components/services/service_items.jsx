@@ -20,7 +20,7 @@ const Container = styled.div`
       margin: 1rem;
     }
 }
-`
+`;
 
 const Service_items = () => {
 

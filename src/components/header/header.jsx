@@ -8,7 +8,8 @@ import styled from 'styled-components'
   const Container = styled.div`
     & .contact_page_btn{
       display: block;
-    } @media only screen and (max-width : 767px),
+    }
+      @media only screen and (max-width : 767px),
       @media only screen and (width <= 480px){
       & .contact_page_btn{
         display: none;
