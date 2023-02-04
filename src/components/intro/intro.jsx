@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './intro.css';
 import gsap from 'gsap';
 import wheel from '../../assets/media/wheel.png'
@@ -11,9 +11,22 @@ const Intro = () => {
 
     .fromTo(".left_intro", { x: -100, opacity: 0 }, { x: 0, ease: "back", opacity: 1 })
 
+
+    
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  },[]);
+
   return (
     <div className='intro'>
-        <img className='intro_wheel_bg' src={wheel}/>
+        <img className='intro_wheel_bg' src={wheel} style={{
+            transform:`translateY(${offsetY * 0.4}px)`
+          }}/>
         <div className='intro_bg'>
             <h1>Ajay's Portfolio</h1>
         </div>

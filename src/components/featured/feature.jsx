@@ -30,10 +30,11 @@ import styled from 'styled-components'
   @media only screen and (width <= 480px){
    & .msTitle{
       display: block;
+      position: sticky;
+      top: 6rem;
    }
-}
-  
-  `;
+} 
+`;
 
 const Feature = () => {
 

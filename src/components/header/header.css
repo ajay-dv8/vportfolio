@@ -40,17 +40,19 @@
     padding-left: 1rem;
     padding-right: 1rem;
     transition: all 0.5s ease;
-    border: 2px solid #BE3455;
+    background: #BE3455;
+    border-radius: 0.3rem;
+    transition: all 0.5s ease;  
 }
   
 .contact_page_btn:hover {
-    background: #BE3455;
+    border-radius: 1rem;
 }.contact_page_btn:hover .contact_main_btn{
     color: aliceblue;
 }
 
 .contact_page_btn span{
-    color: #BE3455;
+    color: aliceblue;
     text-shadow: none;
     position: relative;
     font-size: 1.3rem;

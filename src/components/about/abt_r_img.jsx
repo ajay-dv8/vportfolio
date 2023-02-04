@@ -8,7 +8,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 
-   & .left_abt_info, & .right_abt, & .rTxt, & .left_about {
+   & .left_abt_info, & .right_abt, & .rTxt, & .left_about, & .h {
     display: flex;
   }
    @media only screen and (max-width : 767px),
@@ -29,6 +29,10 @@ const Container = styled.div`
     & .rTxt{
       font-size: 1.3rem;
     }
+
+    & .h{
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -43,7 +47,7 @@ const About_r = () => {
     <div className='about_r'>
         <div className='left_about'>
           <div className='left_abt_info'>
-            <span className='r_items' data-aos="fade-in" data-aos-delay="200">We are, </span>
+            <span className='r_items h' data-aos="fade-in" data-aos-delay="200">We are, </span>
             <span className='r_items rTxt' data-aos="fade-in" data-aos-delay="300">dv8, a group of geniuses, developers, designers, artists, creatives and not very good dancers, We are here to bring to life the product you have been imagining. We create simple, direct, beautiful and usable products we all believe in. One thing dv8 really admire is creativity, it is the reason why we are always outside the box and always welcome the creativity of our clients. dv8 works with clients all around the world and  We are based in Ghana, Accra and Koforidua
             </span>
           </div>

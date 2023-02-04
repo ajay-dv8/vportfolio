@@ -49,7 +49,7 @@ const About = () => {
           ></div>
           </a>
           <img className='bg_image' src={ft} style={{
-            transform:`translateY(${offsetY * 0.6}px)`
+            transform:`translateY(${offsetY * 0.4}px)`
           }}/>
 
           <div className='about_header' id='abth'>

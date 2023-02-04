@@ -58,8 +58,9 @@
 }
 
 .more_btn:hover {
-    background: var(--lightgray);
+    background: #BE3455;
     transition: all 1s ease;
+    color: aliceblue;
 
     /*transform: translate(1rem, 1rem);*/
 }

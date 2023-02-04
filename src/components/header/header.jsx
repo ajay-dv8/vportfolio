@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './header.css'
 import bg from '../../assets/media/bg.webm'
 import { Link } from 'react-router-dom'
@@ -23,6 +23,22 @@ const Header = () => {
   const toggleNav = () => {
     setIsOpen(!isOpen);
   }
+
+  useEffect(() => {
+    let scrolled = window.scrollY;
+    let conBtn = document.querySelector('.contact_page_btn');
+  
+    window.addEventListener('scroll', () => {
+      console.log(scrolled);
+
+      if (window.pageYOffset >= 1800) {
+        conBtn.style.visibility = "hidden";
+      } 
+      else if (window.pageYOffset < 1800) {
+        conBtn.style.visibility = "visible";   
+      }
+    });
+  },[]);
 
   return (
     <Container>
